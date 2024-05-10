@@ -4,7 +4,7 @@ import {NavLink }from 'react-router-dom'
 function Botones() {
     return (
         <div>
-            <NavLink to={"/"}>
+            <NavLink to={"/Ejer/"}>
                 <button>
                     Botones
                 </button>
