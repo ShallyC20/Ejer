@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Botones from './Componentes/Botones'
 import Card from './Componentes/Card'
-import { BrowserRouter, Route, Routes } from 'react-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,9 +13,8 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="" element={<Card/>}/>
+          <Route path="/" element={<Card/>}/>
           <Route path ="/Boton" element={<Botones/>}/>
-          
         </Routes>
       </BrowserRouter>
     </>

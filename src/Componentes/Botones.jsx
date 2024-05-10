@@ -1,10 +1,10 @@
 import React from 'react'
-import NavLink from 'react-dom'
+import {NavLink }from 'react-router-dom'
 
 function Botones() {
     return (
         <div>
-            <NavLink to={""}>
+            <NavLink to={"/"}>
                 <button>
                     Botones
                 </button>
