@@ -6,4 +6,4 @@ export default defineConfig({
   plugins: [react()],
   base: "https://shallyc20.github.io/Ejer/ ",
 })
-// https://github.com/ShallyC20/Ejer.git
+// https://github.com/ShallyC20/Ejer.gitss
